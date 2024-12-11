@@ -1,9 +1,6 @@
 Flask
-jsonify
-apscheduler.schedulers.background
-MongoClient
-BackgroundScheduler
+pymongo
 pandas
-BeautifulSoup
-requests
+beautifulsoup4
+apscheduler
 nest_asyncio
