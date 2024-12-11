@@ -58,7 +58,6 @@ scheduler.add_job(fetch_and_upload_data, 'interval', hours=24)
 scheduler.start()
 
 @app.route('/')
-server =app.server
 def home():
     return '''
     <h1>Hi! This is the Animated Films Website</h1>
