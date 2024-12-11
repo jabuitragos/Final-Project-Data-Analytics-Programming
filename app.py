@@ -102,7 +102,7 @@ def get_film_by_title(title):
     return jsonify({'error': 'Film not found in our list'}), 404
 
 def start_flask():
-    app.run(host='0.0.0.0', port=5000)  # This ensures the app is publicly accessible
+    app.run(host='0.0.0.0', port=10000)  # This ensures the app is publicly accessible
 
 if __name__ == '__main__':
     start_flask()
